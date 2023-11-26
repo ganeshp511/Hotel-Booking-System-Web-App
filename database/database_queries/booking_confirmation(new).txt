@@ -1,0 +1,119 @@
+create table booking_confirmation(booking_confirmation_id int primary key not null auto_increment, first_name varchar(30),last_name varchar(30),email_id varchar(50),phone_no varchar(50),check_in date,check_out date, no_of_rooms int,hotel_id int , no_of_persons int, foreign key(hotel_id) references hotel(hotel_id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+insert into booking_confirmation values(1,'Aarti','Pol','aarti@yahoo.com','9864321764','2022-07-07','2022-07-09',2,101,4);
+
+insert into booking_confirmation values(2,'Brad','Pitt','brad@yahoo.com','9864321765','2022-07-08','2022-07-09',2,102,4);
+
+insert into booking_confirmation values(3,'Hritik','Roshan','hritik@yahoo.com','7654321345','2022-07-09','2022-07-11',3,103,6);
+
+insert into booking_confirmation values(4,'James','Bond','james@yahoo.com','9543321345','2022-07-12','2022-07-16',2,104,4);
+
+insert into booking_confirmation values(5,'Nana','Patekar','nana@yahoo.com','9213321345','2022-07-20','2022-07-23',2,105,3);
+
+insert into booking_confirmation values(6,'Tiger','Shroff','tiger@yahoo.com','8974321345','2022-08-07','2022-08-10',1,106,2);
+
+insert into booking_confirmation values(7,'Shah Rukh','Khan','shahrukh@yahoo.com','9864321764','2022-07-16','2022-07-22',3,107,6);
+
+insert into booking_confirmation values(8,'Rajesh','Khanna','rajesh@yahoo.com','9864321888','2022-07-12','2022-07-15',2,108,4);
+
+insert into booking_confirmation values(9,'Sunil','Dutt','sunil@yahoo.com','9999321345','2022-07-10','2022-07-15',4,109,8);
+
+insert into booking_confirmation values(10,'Rahul','Gandhi','rahul@yahoo.com','9864321785','2022-07-06','2022-07-13',2,110,4);
+
+insert into booking_confirmation values(11,'Rashmi','Sinha','rashmi@gmail.com','8987876765','2022-07-16','2022-07-23',3,111,6);
+
+insert into booking_confirmation values(12,'Gayatri','Pol','gayatri@gmail.com','8987877865','2022-07-22','2022-07-26',1,112,2);
+
+insert into booking_confirmation values(13,'Priya','Patil','priya@gmail.com','9987877865','2022-04-10','2022-04-11',3,113,6);
+
+insert into booking_confirmation values(14,'Ankita','Pawar','ankita@gmail.com','8987877865','2022-04-03','2022-04-05',3,114,7);
+
+insert into booking_confirmation values(15,'Ganesh','Phad','ganesh@gmail.com','7876765654','2022-04-11','2022-04-14',1,115,2);
+
+insert into booking_confirmation values(16,'Swapnil','Badgujar','swapnil@gmail.com','7876767656','2022-04-04','2022-04-06',2,116,2);
+
+insert into booking_confirmation values(17,'Rahul','Pawar','rahul@gmail.com','7875767656','2022-04-08','2022-04-09',4,117,6);
+
+insert into booking_confirmation values(18,'Manoj','Patil','manoj@gmail.com','7875767656','2022-04-21','2022-04-23',5,118,6);
+
+insert into booking_confirmation values(19,'Devendra','Pawar','deven@gmail.com','7898767656','2022-05-16','2022-05-23',3,119,9);
+
+insert into booking_confirmation values(20,'Saloni','Raykar','saloni@gmail.com','7787767656','2022-05-17','2022-05-21',3,120,4);
+
+insert into booking_confirmation values(21,'Nirmay','Pandey','nirmay@gmail.com','9987767656','2022-06-18','2022-06-20',2,121,5);
+
+insert into booking_confirmation values(22,'Nikita','Shinde','nikita@gmail.com','9987760956','2022-06-16','2022-06-18',2,122,4);
+
+insert into booking_confirmation values(23,'Rohan','Rane','rohan@gmail.com','9987763243','2022-04-09','2022-04-11',6,123,6);
+
+insert into booking_confirmation values(24,'Nisha','Kumbhar','nish@gmail.com','9987763212','2022-04-12','2022-04-13',3,124,3);
+
+insert into booking_confirmation values(25,'Nishka','Pol','nishka@gmail.com','7787763212','2020-01-02','2020-01-04',3,125,5);
+
+insert into booking_confirmation values(26,'Prisha','Kadam','prisha@gmail.com','7787767890','2021-02-05','2021-02-08',2,126,4);
+
+insert into booking_confirmation values(27,'Mishika','Nrayankar','mishika@gmail.com','7888767890','2021-05-11','2021-05-15',2,127,2);
+
+insert into booking_confirmation values(28,'Ram','Sonawane','ram@gmail.com','9088767890','2022-02-10','2022-02-12',3,128,3);
+
+insert into booking_confirmation values(29,'Sita','Sasne','sita@gmail.com','9768767890','2022-02-04','2022-02-08',2,129,4);
+
+insert into booking_confirmation values(30,'Mira','Kapoor','mira@gmail.com','9768767890','2020-04-05','2020-04-09',4,130,8);
+
+insert into booking_confirmation values(31,'Era','Desai','era@gmail.com','9656567890','2020-03-11','2020-03-15',3,131,5);
+
+insert into booking_confirmation values(32,'Avinash','Kolhe','avi@gmail.com','9653427890','2023-03-15','2023-03-17',2,132,4);
+
+insert into booking_confirmation values(33,'Kushal','Bhadra','kushal@gmail.com','8903427890','2021-05-04','2021-05-06',1,133,1);
+
+insert into booking_confirmation values(34,'Divya','Chaudhari','divya@gmail.com','8967427890','2021-05-04','2021-08-06',2,134,1);
+
+insert into booking_confirmation values(35,'Riya','Dighe','riya@gmail.com','8978627890','2020-06-10','2020-06-13',4,135,2);
+
+insert into booking_confirmation values(36,'Anisha','Yadav','anisha@gmail.com','7878627890','2021-11-10','2021-11-13',4,136,2);
+
+insert into booking_confirmation values(37,'Ashwini','Pol','ashvini@gmail.com','9878627890','2022-02-08','2022-02-09',2,137,4);
+
+insert into booking_confirmation values(38,'Aboli','Patil','aboli@gmail.com','9078627890','2022-03-09','2022-03-11',3,138,6);
+
+insert into booking_confirmation values(39,'Purva','Shinde','purva@gmail.com','9909627890','2022-04-12','2022-04-15',2,139,4);
+
+insert into booking_confirmation values(40,'Shubham','Soni','shubham@gmail.com','8909627890','2022-05-21','2022-05-23',2,140,3);
+
+insert into booking_confirmation values(41,'Aditya','Wagh','adi@gmail.com','9909627890','2022-06-07','2022-06-11',1,141,2);
+
+insert into booking_confirmation values(42,'Amit','Kumar','amit@gmail.com','9909627800','2022-04-16','2022-04-22',3,142,6);
+
+insert into booking_confirmation values(43,'Rupesh','Shinde','rupesh@gmail.com','9966627800','2022-05-14','2022-05-15',2,143,4);
+
+insert into booking_confirmation values(44,'Mrunal','More','mrunal@gmail.com','9989827800','2022-03-10','2022-03-17',4,144,8);
+
+insert into booking_confirmation values(45,'Diksha','khan','dishka@gmail.com','9989827787','2022-03-06','2022-03-10',2,145,4);
+
+insert into booking_confirmation values(46,'Nayala','khan','nayala@gmail.com','7789827787','2022-04-16','2022-04-23',3,146,6);
+
+insert into booking_confirmation values(47,'Niraj','kumar','niraj@gmail.com','9789827787','2022-06-22','2022-06-23',2,147,2);
+
+insert into booking_confirmation values(48,'Merry','kom','merry@gmail.com','9789827789','2022-02-18','2022-02-26',1,148,1);
+
+insert into booking_confirmation values(49,'Saurabh','Khote','sourabh@gmail.com','9788927789','2022-04-20','2022-07-21',1,149,3);
+
+insert into booking_confirmation values(50,'Sonakshi','Sinha','sona@gmail.com','9700027789','2022-07-10','2022-07-11',2,150,2);
+
+
+
+alter table booking_confirmation add column days int;
+alter table booking_confirmation add column total_amount varchar(1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
